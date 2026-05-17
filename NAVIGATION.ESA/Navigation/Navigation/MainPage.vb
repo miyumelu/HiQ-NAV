@@ -124,6 +124,8 @@ Public Class MainPage
         InitGdiCache()
         StartUdpReceiver()
         LoadMap()
+        _offlineMap = True
+        RebuildOfflineZoomStops()
         StartRenderTimer()
     End Sub
 
@@ -468,6 +470,7 @@ Public Class MainPage
         If tile IsNot Nothing Then
             DrawTileUniformCover(g, tile, w, h, rotateNorthUp:=_fixedMap)
         Else
+            If _mapImage Is Nothing Then Return
             Dim truckPxX = (_data.TruckX - MAP_OFFSET_X) * MAP_SCALE
             Dim truckPxZ = (_data.TruckZ - MAP_OFFSET_Z) * MAP_SCALE
             Dim destW = CInt(_mapImage.Width * _zoomLevel)
