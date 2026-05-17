@@ -73,6 +73,16 @@ The current version of the navigation has no UI. It is made for testing only. Cu
 [32feet](https://github.com/inthehand/32feet)
 
 ## Own APIs
-[XWMS](https://github.com/miyumelu/next-window-management-system)
-
 [Compressed-Map-Data](https://github.com/miyumelu/compressed-map-data)
+
+[Core Dictionary Module](https://github.com/miyumelu/core-dictionary-module)
+
+[Power-Distribution-Management-System](https://github.com/miyumelu/Power-Distribution-Management-System)
+
+[Touch Gesture Recognition System](https://github.com/miyumelu/Touch-Gesture-Recognition-System)
+
+[neXt Motion Engine](https://github.com/miyumelu/next-motion-engine)
+
+[neXt-Window-Management-System](https://github.com/miyumelu/next-window-management-system)
+
+[neXt Voice Engine](https://github.com/next-voice-engine)
