@@ -69,8 +69,10 @@ The current version of the navigation has no UI. It is made for testing only. Cu
 ## Used Project(s)
 
 [ts-map](https://github.com/dariowouters/ts-map)
+
 [32feet](https://github.com/inthehand/32feet)
 
 ## Own APIs
 [XWMS](https://github.com/miyumelu/next-window-management-system)
+
 [Compressed-Map-Data](https://github.com/miyumelu/compressed-map-data)
