@@ -53,9 +53,13 @@ There will be a "Create HiQ-Nav Disk" tool to simplify the process.
 There will most likely be three versions of the map:
 
 Business – approx. 150 MB
+
 Professional – approx. 5–6 GB
+
 Premium – approx. 40–50 GB
+
 RealFeel – approx. 150–200 GB
+
 (It is recommended to generate this yourself using ts-map and the CMD tool.)
 
 Map sizes may vary depending on the game version. Maps may be missing certain DLC content. For those who have a CMD file ready, I kindly ask that you send it to me so that I can upload it to a server.
