@@ -54,8 +54,8 @@
               "Title": "MainPage.vb [Entwurf]",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb",
               "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb [Entwurf]*",
-              "RelativeToolTip": "Navigation\\MainPage.vb [Entwurf]*",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb [Entwurf]",
+              "RelativeToolTip": "Navigation\\MainPage.vb [Entwurf]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-15T22:34:59.928Z",
               "EditorCaption": " [Entwurf]"
@@ -66,9 +66,9 @@
               "Title": "MainPage.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb",
               "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb*",
-              "RelativeToolTip": "Navigation\\MainPage.vb*",
-              "ViewState": "AgIAAMcBAAAAAAAAAADwv94BAAA6AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\MainPage.vb",
+              "RelativeToolTip": "Navigation\\MainPage.vb",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAQwHsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-09T21:03:58.117Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "Navigation\\IMapCompositor.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-05-13T21:30:23.675Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T21:30:23.675Z"
             },
             {
               "$type": "Document",
@@ -96,8 +95,7 @@
               "RelativeToolTip": "Navigation\\OfflineMapCompositor.vb",
               "ViewState": "AgIAAB4BAAAAAAAAAAAwwC0BAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-05-13T17:33:41.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T17:33:41.777Z"
             },
             {
               "$type": "Document",

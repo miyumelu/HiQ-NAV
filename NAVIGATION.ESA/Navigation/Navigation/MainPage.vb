@@ -117,6 +117,21 @@ Public Class MainPage
     End Sub
 
     Private Sub MainPage_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Task.Run(Sub()
+                     Try
+                         Using udp As New UdpClient()
+                             udp.EnableBroadcast = True
+                             Dim msg = Encoding.UTF8.GetBytes("HIQNAV_HELLO")
+                             Dim ep As New IPEndPoint(IPAddress.Broadcast, 11001)
+                             For i = 1 To 5
+                                 udp.Send(msg, msg.Length, ep)
+                                 Thread.Sleep(500)
+                             Next
+                         End Using
+                     Catch
+                     End Try
+                 End Sub)
+
         Me.Text = "HiQ-Nav"
         Me.BackColor = Color.FromArgb(18, 20, 26)
         Me.MinimumSize = New Size(800, 600)
