@@ -85,4 +85,4 @@ The current version of the navigation has no UI. It is made for testing only. Cu
 
 [neXt-Window-Management-System](https://github.com/miyumelu/next-window-management-system)
 
-[neXt Voice Engine](https://github.com/next-voice-engine)
+[neXt Voice Engine](https://github.com/miyumelu/next-voice-engine)
