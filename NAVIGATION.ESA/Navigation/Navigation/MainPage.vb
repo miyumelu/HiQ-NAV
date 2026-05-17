@@ -112,7 +112,7 @@ Public Class MainPage
 
     Public Sub New()
         InitializeComponent()
-        _offlineCompositor = Reader.TryCreate()
+        _offlineCompositor = Reader.TryCreate(FindCmdPath(isDay:=True))
         BuildUI()
     End Sub
 
@@ -126,6 +126,22 @@ Public Class MainPage
         LoadMap()
         StartRenderTimer()
     End Sub
+
+    Private Shared Function FindCmdPath(isDay As Boolean) As String
+        Dim mapFolder = If(isDay, "DAY.MAP", "NIGHT.MAP")
+        Dim rel = IO.Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "EUROPE.CMD")
+
+        For Each d In IO.DriveInfo.GetDrives()
+            If Not d.IsReady Then Continue For
+            If d.DriveType <> IO.DriveType.Fixed AndAlso
+           d.DriveType <> IO.DriveType.Removable AndAlso
+           d.DriveType <> IO.DriveType.Network AndAlso
+           d.DriveType <> IO.DriveType.CDRom Then Continue For
+            Dim p = IO.Path.Combine(d.RootDirectory.FullName, rel)
+            If IO.File.Exists(p) Then Return p
+        Next
+        Return Nothing
+    End Function
 
     Private Sub InitGdiCache()
         _truckFill = New SolidBrush(Color.FromArgb(240, 255, 180, 0))
@@ -635,6 +651,10 @@ Public Class MainPage
             _lastTileX = Single.MaxValue
             _mapDirty = True
 
+            _offlineCompositor?.Dispose()
+            _offlineCompositor = Reader.TryCreate(FindCmdPath(isDay:=_isDay))
+            If _offlineMap Then RebuildOfflineZoomStops()
+
             If _btnDayNight IsNot Nothing Then
                 _btnDayNight.BackColor = If(_isDay, Color.FromArgb(200, 160, 0), Color.FromArgb(30, 60, 120))
                 _btnDayNight.Text = If(_isDay, "Day", "Night")
@@ -904,7 +924,6 @@ Public Class MainPage
                                          btnMapMode.BackColor = If(_fixedMap, Color.FromArgb(60, 80, 60), Color.FromArgb(255, 140, 0))
                                      End Sub
 
-        ' ~° Smooth Heading
         Dim btnSmooth As New Button With {
             .Text = "Smooth Comp",
             .Size = New Size(110, 34),
@@ -940,7 +959,6 @@ Public Class MainPage
                                            _btnDayNight.Text = If(_isDay, "Day", "Night")
                                        End Sub
 
-        ' ⚡ MapFast Toggle
         Dim btnFast As New Button With {
             .Text = "Fast Mode",
             .Size = New Size(110, 34),

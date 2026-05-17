@@ -20,7 +20,7 @@
 
   <ItemGroup>
     <Reference Include="Compressed-Map-Data">
-      <HintPath>..\..\..\..\..\Documents\GitHub\Compressed-Map-Data\Compressed-Map-Data\Compressed-Map-Data\bin\Debug\net6.0\Compressed-Map-Data.dll</HintPath>
+      <HintPath>..\..\..\..\Compressed-Map-Data\Compressed-Map-Data\Compressed-Map-Data\bin\Debug\net6.0\Compressed-Map-Data.dll</HintPath>
     </Reference>
   </ItemGroup>
 

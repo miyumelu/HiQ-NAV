@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\deniz\\Desktop\\HiQ-Nav.img\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj": {}
+    "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\deniz\\Desktop\\HiQ-Nav.img\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj": {
+    "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\deniz\\Desktop\\HiQ-Nav.img\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj",
+        "projectUniqueName": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj",
         "projectName": "Navigation",
-        "projectPath": "C:\\Users\\deniz\\Desktop\\HiQ-Nav.img\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj",
+        "projectPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\Navigation.vbproj",
         "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\deniz\\Desktop\\HiQ-Nav.img\\NAVIGATION.ESA\\Navigation\\Navigation\\obj\\",
+        "outputPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\Navigation\\Navigation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",

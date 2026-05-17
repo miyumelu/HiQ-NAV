@@ -37,8 +37,8 @@ Public NotInheritable Class OfflineMapCompositor
         _availableZooms = If(availableZooms, Array.Empty(Of Integer)())
     End Sub
 
-    Public Shared Function TryCreate() As OfflineMapCompositor
-        Dim jsonPath = FindTileMapInfoPath()
+    Public Shared Function TryCreate(Optional isDay As Boolean = True) As OfflineMapCompositor
+        Dim jsonPath = FindTileMapInfoPath(isDay)
         If jsonPath Is Nothing Then Return Nothing
 
         Try
@@ -68,8 +68,22 @@ Public NotInheritable Class OfflineMapCompositor
         End Try
     End Function
 
-    Private Shared Function FindTileMapInfoPath() As String
-        Dim rel = Path.Combine("NAVIGATION_MAP.DATA", "DAY.MAP", "TileMapInfo.json")
+    Private Shared Function FindTileMapInfoPath(isDay As Boolean) As String
+        Dim mapFolder = If(isDay, "DAY.MAP", "NIGHT.MAP")
+        Dim rel = Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "TileMapInfo.json")
+
+        Dim drives = IO.DriveInfo.GetDrives().
+                    Where(Function(d) d.IsReady AndAlso
+                          (d.DriveType = IO.DriveType.Fixed OrElse
+                           d.DriveType = IO.DriveType.Removable OrElse
+                           d.DriveType = IO.DriveType.Network)).
+                    Select(Function(d) d.RootDirectory.FullName)
+
+        For Each root In drives
+            Dim p = Path.Combine(root, rel)
+            If File.Exists(p) Then Return p
+        Next
+
         Dim dir As New DirectoryInfo(Application.StartupPath)
         For i = 0 To 9
             Dim p = Path.Combine(dir.FullName, rel)
@@ -77,6 +91,7 @@ Public NotInheritable Class OfflineMapCompositor
             If dir.Parent Is Nothing Then Exit For
             dir = dir.Parent
         Next
+
         Return Nothing
     End Function
 
