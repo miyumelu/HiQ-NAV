@@ -31,7 +31,7 @@ Partial Class MainPage
         COMPASSMODE_BTN = New PictureBox()
         ZOOMOUT_BTN = New PictureBox()
         ZOOMIN_BTN = New PictureBox()
-        Map_Panel = New Panel()
+        Map_Panel = New BufferedPanel()
         VEHICLE_BOX = New PictureBox()
         NORTH_LBL = New Label()
         COMPASS_BOX = New PictureBox()
@@ -266,7 +266,7 @@ Partial Class MainPage
     End Sub
 
     Friend WithEvents Side_Panel As Panel
-    Friend WithEvents Map_Panel As Panel
+    Friend WithEvents Map_Panel As BufferedPanel
     Friend WithEvents COMPASS_BOX As PictureBox
     Friend WithEvents ZOOM_SCALE As Label
     Friend WithEvents IDRIVE_BOX As PictureBox
