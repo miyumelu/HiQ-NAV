@@ -590,9 +590,11 @@ Public Class MainPage
         Dim cx = COMPASS_BOX.Width / 2.0F
         Dim cy = COMPASS_BOX.Height / 2.0F
 
+        Dim size = CSng(Math.Min(COMPASS_BOX.Width, COMPASS_BOX.Height) / Math.Sqrt(2)) * 0.85F
+
         g.TranslateTransform(cx, cy)
         g.RotateTransform(-_displayHeading)
-        g.DrawImage(_compassImage, -cx, -cy, COMPASS_BOX.Width, COMPASS_BOX.Height)
+        g.DrawImage(_compassImage, -size / 2.0F, -size / 2.0F, size, size)
     End Sub
 
 #End Region

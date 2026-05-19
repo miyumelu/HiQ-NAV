@@ -203,7 +203,6 @@ Partial Class MainPage
         ' 
         COMPASS_BOX.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left
         COMPASS_BOX.BackColor = Color.FromArgb(CByte(38), CByte(38), CByte(38))
-        COMPASS_BOX.BackgroundImage = My.Resources.Resources.COMPASS
         COMPASS_BOX.BackgroundImageLayout = ImageLayout.Zoom
         COMPASS_BOX.Location = New Point(430, 770)
         COMPASS_BOX.Name = "COMPASS_BOX"
