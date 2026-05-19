@@ -104,6 +104,7 @@ Public Class MainPage
         Me.Text = "HiQ-Nav"
         Me.BackColor = Color.FromArgb(18, 20, 26)
         Me.MinimumSize = New Size(800, 600)
+        Me.TopMost = True
 
         _compassImage = My.Resources.COMPASS
         _vehicleImage = My.Resources.POINTER

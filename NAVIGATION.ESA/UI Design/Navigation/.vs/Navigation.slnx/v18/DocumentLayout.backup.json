@@ -62,8 +62,8 @@
               "Title": "MainPage.Designer.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.Designer.vb",
               "RelativeDocumentMoniker": "Navigation\\MainPage.Designer.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.Designer.vb*",
-              "RelativeToolTip": "Navigation\\MainPage.Designer.vb*",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.Designer.vb",
+              "RelativeToolTip": "Navigation\\MainPage.Designer.vb",
               "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-19T19:43:55.139Z",
@@ -77,7 +77,7 @@
               "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.vb*",
               "RelativeToolTip": "Navigation\\MainPage.vb*",
-              "ViewState": "AgIAAEgAAAAAAAAAAAASwEkCAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-09T21:03:58.117Z",
               "EditorCaption": ""
@@ -185,8 +185,7 @@
               "RelativeToolTip": "Navigation\\BufferedPanel.vb",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-05-19T19:43:45.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-19T19:43:45.885Z"
             },
             {
               "$type": "Document",
