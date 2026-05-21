@@ -54,7 +54,7 @@ There will most likely be three versions of the map:
 
 Business – approx. 300 MB (Recommended for low end tablets etc.)
 
-Professional – approx. 4 GB (Recommended for DVDs)
+Professional – approx. 4 GB (Recommended for DVD-DL)
 
 Premium – approx. 16 GB (Recommended for SD-Cards/USBs/Integrated drives)
 
@@ -74,7 +74,9 @@ Map sizes may vary slightly depending on the game version, dlc and mods like Tru
 
 - After realizing that the UDP broadcast was generating excessive network traffic—leading to a slowdown of the entire system—I have implemented a handshake mechanism and a targeted UDP broadcast, rather than sending the data to every IP address. In doing so, I also introduced a transmission limit to restrict the number of broadcasts per second. However, this came at the expense of TCP performance, as TCP traffic is also subject to this same limit. Consequently, the map stream operates significantly more slowly; being asynchronous, it only transmits data when it finds an available slot (since parsing the data takes some time). To resolve this, I will most likely implement the TCP stream within its own dedicated class.
 
-- For some reason, the system is having trouble displaying smaller zoom levels while in offline mode. I noticed this while testing with a DVD. I will check to see if this also affects SD cards and USB drives. The issue does not occur in online mode. Could this possibly be due to CPU throttling? I will look into implementing multithreading if the problem turns out to affect SD cards and USB drives as well.
+- For some reason, the system is having trouble displaying smaller zoom levels while in offline mode. I noticed this while testing with a DVD. The problem affects every medium. The issue does not occur in online mode. It appears that a backlog is building up, as the utilization of all maps is not occurring correctly.
+
+- The CMD system is scheduled to be replaced soon. Its current compression is very sluggish and also not particularly robust. The plan is to implement a stronger compression scheme. This will be designated as the "Universal Map Format" and will, for the time being, be incompatible with NT1000 systems—or rather, with the system currently in operation. 
 
 ## Used Project(s)
 
