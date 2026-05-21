@@ -554,33 +554,29 @@ Public Class MainPage
         End If
 
         Dim scaleTxt As String
-        Dim rawKm = rawMeters / 1000.0
-
-        If rawKm >= 10.0 Then
-            Dim steps As Double
-            If rawKm < 20 Then
-                steps = 5
-            ElseIf rawKm < 100 Then
-                steps = 10
-            ElseIf rawKm < 500 Then
-                steps = 25
-            Else
-                steps = 100
-            End If
-            Dim rounded = Math.Round(rawKm / steps) * steps
-            scaleTxt = $"{CInt(rounded)} km"
-
-        ElseIf rawMeters >= 1000.0 Then
-            Dim roundedKm = Math.Round(rawKm * 2.0) / 2.0
-            roundedKm = Math.Max(0.5, roundedKm)
-            scaleTxt = If(roundedKm = Math.Floor(roundedKm),
-                  $"{CInt(roundedKm)} km",
-                  $"{roundedKm:F1} km")
-
-        ElseIf rawMeters >= 100 Then
-            scaleTxt = $"{CInt(Math.Round(rawMeters / 10.0) * 10)} m"
+        If Double.IsNaN(rawMeters) OrElse Double.IsInfinity(rawMeters) OrElse rawMeters <= 0 Then
+            scaleTxt = "---"
         Else
-            scaleTxt = $"{CInt(Math.Round(rawMeters))} m"
+            Dim rawKm = rawMeters / 1000.0
+            If rawKm >= 10.0 Then
+                Dim steps = If(rawKm < 20, 5.0, If(rawKm < 100, 10.0, If(rawKm < 500, 25.0, 100.0)))
+                Dim rounded = CLng(Math.Round(rawKm / steps) * steps)
+                scaleTxt = $"{rounded} km"
+            ElseIf rawKm >= 1.0 Then
+                Dim roundedKm = Math.Round(rawKm * 2.0) / 2.0
+                roundedKm = Math.Max(0.5, roundedKm)
+                scaleTxt = If(roundedKm = Math.Floor(roundedKm),
+                      $"{CLng(roundedKm)} km",
+                      $"{roundedKm:F1} km")
+            ElseIf rawMeters >= 100 Then
+                scaleTxt = $"{CInt(Math.Round(rawMeters / 10.0) * 10)} m"
+            Else
+                scaleTxt = $"{CInt(Math.Round(rawMeters))} m"
+            End If
+        End If
+
+        If ZOOM_SCALE IsNot Nothing AndAlso ZOOM_SCALE.Text <> scaleTxt Then
+            ZOOM_SCALE.Text = scaleTxt
         End If
     End Sub
 
