@@ -126,7 +126,6 @@ Public NotInheritable Class OfflineMapCompositor
 
     Public ReadOnly Property ExportMinZoom As Integer Implements IMapCompositor.ExportMinZoom
         Get
-            If _info Is Nothing Then Return 0
             If _availableZooms IsNot Nothing AndAlso _availableZooms.Length > 0 Then
                 Return _availableZooms.Min()
             End If
