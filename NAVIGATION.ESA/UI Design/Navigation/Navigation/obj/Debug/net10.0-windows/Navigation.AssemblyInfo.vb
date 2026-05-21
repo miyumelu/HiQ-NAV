@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Navigation"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25ecb0e66f0472cea7baf4bf444a267a2b399219"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a41227f52d3eb619be020461fe3929e4329516a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Navigation"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Navigation"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

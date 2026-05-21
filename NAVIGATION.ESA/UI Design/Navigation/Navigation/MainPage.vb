@@ -102,8 +102,7 @@ Public Class MainPage
                  End Sub)
 
         Me.Text = "HiQ-Nav"
-        Me.BackColor = Color.FromArgb(18, 20, 26)
-        Me.MinimumSize = New Size(800, 600)
+        Me.MinimumSize = New Size(1440, 900)
         Me.TopMost = True
 
         _compassImage = My.Resources.COMPASS
@@ -706,19 +705,16 @@ Public Class MainPage
     End Function
 
     Private Sub RebuildOfflineZoomStops()
-        If _isDay <> _lastDayState Then
-            _lastDayState = _isDay
-            _lastTileX = Single.MaxValue
-            _mapDirty = True
-            _offlineCompositor?.Dispose()
-            _offlineCompositor = Reader.TryCreate(FindCmdPath(isDay:=_isDay))
-            If _offlineMap Then
-                Dim savedIdx = _offlineZoomIdx
-                RebuildOfflineZoomStops()
-                If _offlineRenderZoomStops IsNot Nothing AndAlso savedIdx < _offlineRenderZoomStops.Length Then
-                    _offlineZoomIdx = savedIdx
-                End If
-            End If
+        If _offlineCompositor Is Nothing OrElse Not _offlineCompositor.IsAvailable Then
+            _offlineRenderZoomStops = Array.Empty(Of Single)()
+            Return
+        End If
+
+        Dim savedIdx = _offlineZoomIdx
+        _offlineRenderZoomStops = _offlineCompositor.BuildOfflineRenderZoomStops()
+
+        If _offlineRenderZoomStops.Length > 0 Then
+            _offlineZoomIdx = Math.Max(0, Math.Min(_offlineRenderZoomStops.Length - 1, savedIdx))
         End If
     End Sub
 

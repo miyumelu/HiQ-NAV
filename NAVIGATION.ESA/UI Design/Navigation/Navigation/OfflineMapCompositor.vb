@@ -235,7 +235,7 @@ Public NotInheritable Class OfflineMapCompositor
         Dim lo = Math.Max(_info.minZoom, 0)
         Dim hi = Math.Max(lo, Math.Min(ExportMaxZoom, 14))
         Dim best = lo
-        For zt = hi To lo Step -1
+        For zt = lo To hi
             Dim n = 1 << zt
             Dim tileWorldW = CSng((_info.x2 - _info.x1) / n)
             Dim mppTile = tileWorldW / _tilePixelSize
@@ -254,7 +254,7 @@ Public NotInheritable Class OfflineMapCompositor
 
     Public Function BuildOfflineRenderZoomStops() As Single() Implements IMapCompositor.BuildOfflineRenderZoomStops
         If Not IsAvailable Then Return Array.Empty(Of Single)()
-        Const r0 As Single = 0.12F
+        Const r0 As Single = 0.001F
         Const r1 As Single = 18.0F
         Const steps = 480
 
