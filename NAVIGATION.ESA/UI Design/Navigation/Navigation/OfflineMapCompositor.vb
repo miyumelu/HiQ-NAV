@@ -232,14 +232,13 @@ Public NotInheritable Class OfflineMapCompositor
     End Function
 
     Private Function PickZoomFromMpp(mppTarget As Single) As Integer
-        Dim lo = If(_availableZooms IsNot Nothing AndAlso _availableZooms.Length > 0,
-                _availableZooms.Min(), 0)
+        Dim lo = Math.Max(_info.minZoom, 0)
         Dim hi = Math.Max(lo, Math.Min(ExportMaxZoom, 14))
         Dim best = hi
         For zt = lo To hi
             Dim n = 1 << zt
             Dim tileWorldW = CSng((_info.x2 - _info.x1) / n)
-            Dim mppTile = tileWorldW / _tilePixelSize
+            Dim mppTile = tileWorldW / 256.0F
             If mppTile <= mppTarget * 1.35F Then
                 best = zt
                 Exit For
@@ -255,7 +254,9 @@ Public NotInheritable Class OfflineMapCompositor
 
     Public Function BuildOfflineRenderZoomStops() As Single() Implements IMapCompositor.BuildOfflineRenderZoomStops
         If Not IsAvailable Then Return Array.Empty(Of Single)()
-        Const r0 As Single = 0.001F
+        Dim xSpan = CSng(_info.x2 - _info.x1)
+        Dim r0 = CSng(1.35 * 256.0 / xSpan * 0.5)
+        r0 = Math.Max(0.0002F, Math.Min(0.05F, r0))
         Const r1 As Single = 18.0F
         Const steps = 480
 
