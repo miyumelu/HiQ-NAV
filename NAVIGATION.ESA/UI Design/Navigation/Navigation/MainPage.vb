@@ -554,16 +554,33 @@ Public Class MainPage
         End If
 
         Dim scaleTxt As String
-        If rawMeters >= 1000 Then
-            scaleTxt = $"{rawMeters / 1000.0:F2} km"
+        Dim rawKm = rawMeters / 1000.0
+
+        If rawKm >= 10.0 Then
+            Dim steps As Double
+            If rawKm < 20 Then
+                steps = 5
+            ElseIf rawKm < 100 Then
+                steps = 10
+            ElseIf rawKm < 500 Then
+                steps = 25
+            Else
+                steps = 100
+            End If
+            Dim rounded = Math.Round(rawKm / steps) * steps
+            scaleTxt = $"{CInt(rounded)} km"
+
+        ElseIf rawMeters >= 1000.0 Then
+            Dim roundedKm = Math.Round(rawKm * 2.0) / 2.0
+            roundedKm = Math.Max(0.5, roundedKm)
+            scaleTxt = If(roundedKm = Math.Floor(roundedKm),
+                  $"{CInt(roundedKm)} km",
+                  $"{roundedKm:F1} km")
+
         ElseIf rawMeters >= 100 Then
             scaleTxt = $"{CInt(Math.Round(rawMeters / 10.0) * 10)} m"
         Else
             scaleTxt = $"{CInt(Math.Round(rawMeters))} m"
-        End If
-
-        If ZOOM_SCALE IsNot Nothing AndAlso ZOOM_SCALE.Text <> scaleTxt Then
-            ZOOM_SCALE.Text = scaleTxt
         End If
     End Sub
 
