@@ -126,10 +126,11 @@ Public NotInheritable Class OfflineMapCompositor
 
     Public ReadOnly Property ExportMinZoom As Integer Implements IMapCompositor.ExportMinZoom
         Get
-            If _info Is Nothing Then
-                Return 0
+            If _info Is Nothing Then Return 0
+            If _availableZooms IsNot Nothing AndAlso _availableZooms.Length > 0 Then
+                Return _availableZooms.Min()
             End If
-            Return Math.Max(0, _info.minZoom)
+            Return 0
         End Get
     End Property
 
@@ -232,9 +233,10 @@ Public NotInheritable Class OfflineMapCompositor
     End Function
 
     Private Function PickZoomFromMpp(mppTarget As Single) As Integer
-        Dim lo = Math.Max(_info.minZoom, 0)
+        Dim lo = If(_availableZooms IsNot Nothing AndAlso _availableZooms.Length > 0,
+                _availableZooms.Min(), 0)
         Dim hi = Math.Max(lo, Math.Min(ExportMaxZoom, 14))
-        Dim best = lo
+        Dim best = hi
         For zt = lo To hi
             Dim n = 1 << zt
             Dim tileWorldW = CSng((_info.x2 - _info.x1) / n)
