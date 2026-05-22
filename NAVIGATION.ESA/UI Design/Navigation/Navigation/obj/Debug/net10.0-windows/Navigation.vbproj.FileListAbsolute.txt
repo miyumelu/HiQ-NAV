@@ -89,3 +89,4 @@ C:\Users\deniz\Documents\GitHub\HiQ-NAV\NAVIGATION.ESA\UI Design\Navigation\Navi
 C:\Users\deniz\Documents\GitHub\HiQ-NAV\NAVIGATION.ESA\UI Design\Navigation\Navigation\obj\Debug\net10.0-windows\Navigation.pdb
 C:\Users\deniz\Documents\GitHub\HiQ-NAV\NAVIGATION.ESA\UI Design\Navigation\Navigation\obj\Debug\net10.0-windows\Navigation.genruntimeconfig.cache
 C:\Users\deniz\Documents\GitHub\HiQ-NAV\NAVIGATION.ESA\UI Design\Navigation\Navigation\obj\Debug\net10.0-windows\ref\Navigation.dll
+C:\Users\deniz\Documents\GitHub\HiQ-NAV\NAVIGATION.ESA\UI Design\Navigation\Navigation\obj\Debug\net10.0-windows\Navigation.StatusScreen.resources

@@ -22,6 +22,7 @@ Partial Class MainPage
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
+        components = New ComponentModel.Container()
         Side_Panel = New Panel()
         HOME_BTN = New PictureBox()
         TIMEMODE_BTN = New PictureBox()
@@ -32,11 +33,14 @@ Partial Class MainPage
         ZOOMOUT_BTN = New PictureBox()
         ZOOMIN_BTN = New PictureBox()
         Map_Panel = New BufferedPanel()
+        Time_Panel = New Panel()
+        LblTime = New Label()
         VEHICLE_BOX = New PictureBox()
         NORTH_LBL = New Label()
         COMPASS_BOX = New PictureBox()
         ZOOM_SCALE = New Label()
         IDRIVE_BOX = New PictureBox()
+        SysTimer = New Timer(components)
         Side_Panel.SuspendLayout()
         CType(HOME_BTN, ComponentModel.ISupportInitialize).BeginInit()
         CType(TIMEMODE_BTN, ComponentModel.ISupportInitialize).BeginInit()
@@ -47,6 +51,7 @@ Partial Class MainPage
         CType(ZOOMOUT_BTN, ComponentModel.ISupportInitialize).BeginInit()
         CType(ZOOMIN_BTN, ComponentModel.ISupportInitialize).BeginInit()
         Map_Panel.SuspendLayout()
+        Time_Panel.SuspendLayout()
         CType(VEHICLE_BOX, ComponentModel.ISupportInitialize).BeginInit()
         CType(COMPASS_BOX, ComponentModel.ISupportInitialize).BeginInit()
         CType(IDRIVE_BOX, ComponentModel.ISupportInitialize).BeginInit()
@@ -165,6 +170,7 @@ Partial Class MainPage
         ' 
         Map_Panel.Anchor = AnchorStyles.Top Or AnchorStyles.Bottom Or AnchorStyles.Left Or AnchorStyles.Right
         Map_Panel.BackColor = Color.FromArgb(CByte(34), CByte(34), CByte(34))
+        Map_Panel.Controls.Add(Time_Panel)
         Map_Panel.Controls.Add(VEHICLE_BOX)
         Map_Panel.Controls.Add(NORTH_LBL)
         Map_Panel.Controls.Add(COMPASS_BOX)
@@ -174,6 +180,30 @@ Partial Class MainPage
         Map_Panel.Name = "Map_Panel"
         Map_Panel.Size = New Size(1340, 900)
         Map_Panel.TabIndex = 1
+        ' 
+        ' Time_Panel
+        ' 
+        Time_Panel.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        Time_Panel.BackgroundImage = My.Resources.Resources.BOX
+        Time_Panel.BackgroundImageLayout = ImageLayout.Stretch
+        Time_Panel.Controls.Add(LblTime)
+        Time_Panel.Location = New Point(1111, 25)
+        Time_Panel.Name = "Time_Panel"
+        Time_Panel.Size = New Size(203, 132)
+        Time_Panel.TabIndex = 3
+        ' 
+        ' LblTime
+        ' 
+        LblTime.Anchor = AnchorStyles.Top Or AnchorStyles.Right
+        LblTime.BackColor = Color.Transparent
+        LblTime.Font = New Font("Segoe UI", 32.0F)
+        LblTime.ForeColor = Color.White
+        LblTime.Location = New Point(15, 2)
+        LblTime.Name = "LblTime"
+        LblTime.Size = New Size(185, 71)
+        LblTime.TabIndex = 4
+        LblTime.Text = "22:31"
+        LblTime.TextAlign = ContentAlignment.MiddleRight
         ' 
         ' VEHICLE_BOX
         ' 
@@ -190,7 +220,7 @@ Partial Class MainPage
         ' 
         NORTH_LBL.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left
         NORTH_LBL.BackColor = Color.FromArgb(CByte(38), CByte(38), CByte(38))
-        NORTH_LBL.Font = New Font("Segoe UI", 35F)
+        NORTH_LBL.Font = New Font("Segoe UI", 35.0F)
         NORTH_LBL.ForeColor = Color.White
         NORTH_LBL.Location = New Point(490, 766)
         NORTH_LBL.Name = "NORTH_LBL"
@@ -214,7 +244,7 @@ Partial Class MainPage
         ' 
         ZOOM_SCALE.Anchor = AnchorStyles.Bottom Or AnchorStyles.Left
         ZOOM_SCALE.BackColor = Color.FromArgb(CByte(38), CByte(38), CByte(38))
-        ZOOM_SCALE.Font = New Font("Segoe UI", 32F)
+        ZOOM_SCALE.Font = New Font("Segoe UI", 32.0F)
         ZOOM_SCALE.ForeColor = Color.Red
         ZOOM_SCALE.Location = New Point(199, 762)
         ZOOM_SCALE.Name = "ZOOM_SCALE"
@@ -235,9 +265,13 @@ Partial Class MainPage
         IDRIVE_BOX.TabIndex = 0
         IDRIVE_BOX.TabStop = False
         ' 
+        ' SysTimer
+        ' 
+        SysTimer.Enabled = True
+        ' 
         ' MainPage
         ' 
-        AutoScaleDimensions = New SizeF(7F, 15F)
+        AutoScaleDimensions = New SizeF(7.0F, 15.0F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.Black
         ClientSize = New Size(1440, 900)
@@ -258,6 +292,7 @@ Partial Class MainPage
         CType(ZOOMOUT_BTN, ComponentModel.ISupportInitialize).EndInit()
         CType(ZOOMIN_BTN, ComponentModel.ISupportInitialize).EndInit()
         Map_Panel.ResumeLayout(False)
+        Time_Panel.ResumeLayout(False)
         CType(VEHICLE_BOX, ComponentModel.ISupportInitialize).EndInit()
         CType(COMPASS_BOX, ComponentModel.ISupportInitialize).EndInit()
         CType(IDRIVE_BOX, ComponentModel.ISupportInitialize).EndInit()
@@ -279,5 +314,8 @@ Partial Class MainPage
     Friend WithEvents TIMEMODE_BTN As PictureBox
     Friend WithEvents PictureBox7 As PictureBox
     Friend WithEvents VEHICLE_BOX As PictureBox
+    Friend WithEvents Time_Panel As Panel
+    Friend WithEvents LblTime As Label
+    Friend WithEvents SysTimer As Timer
 
 End Class

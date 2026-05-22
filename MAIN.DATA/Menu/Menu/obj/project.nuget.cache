@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uF890qXGuSQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\MAIN.DATA\\Menu\\Menu\\Menu.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deniz\\.nuget\\packages\\libvlcsharp\\3.9.7.1\\libvlcsharp.3.9.7.1.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\libvlcsharp.winforms\\3.9.7.1\\libvlcsharp.winforms.3.9.7.1.nupkg.sha512",
+    "C:\\Users\\deniz\\.nuget\\packages\\videolan.libvlc.windows\\3.0.23.1\\videolan.libvlc.windows.3.0.23.1.nupkg.sha512"
+  ],
+  "logs": []
+}

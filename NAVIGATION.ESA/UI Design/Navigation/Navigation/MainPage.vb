@@ -114,10 +114,14 @@ Public Class MainPage
         LoadMap()
         _offlineMap = True
         RebuildOfflineZoomStops()
+        _offlineZoomIdx = 3
+        _forceRedraw = True
+        _mapDirty = True
         StartRenderTimer()
 
         UpdateTimeModeBtn()
         UpdateNetworkModeBtn()
+        StatusScreen.Hide()
     End Sub
 
     Private Shared Function FindCmdPath(isDay As Boolean) As String
@@ -182,7 +186,12 @@ Public Class MainPage
         AddHandler TIMEMODE_BTN.Click, Sub(s, ev)
                                            If _dayNightAuto Then Return
                                            _isDay = Not _isDay
+                                           _offlineCompositor?.Dispose()
+                                           _offlineCompositor = Reader.TryCreate(FindCmdPath(isDay:=_isDay))
+                                           If _offlineMap Then RebuildOfflineZoomStops()
                                            _lastTileX = Single.MaxValue
+                                           _forceRedraw = True
+                                           _mapDirty = True
                                            UpdateTimeModeBtn()
                                        End Sub
 
@@ -553,26 +562,20 @@ Public Class MainPage
             rawMeters = refBarPx / (_zoomLevel * MAP_SCALE * 1000)
         End If
 
+        Dim scaleSteps As Double() = {250, 500, 750, 1000, 2500, 5000, 10000, 15000, 30000, 60000}
+
+        Dim snapped = scaleSteps.OrderBy(Function(s) Math.Abs(s - rawMeters)).First()
+
+        If rawMeters > 60000 * 1.5 Then
+            Return
+        End If
+
         Dim scaleTxt As String
-        If Double.IsNaN(rawMeters) OrElse Double.IsInfinity(rawMeters) OrElse rawMeters <= 0 Then
-            scaleTxt = "---"
+        If snapped >= 1000 Then
+            Dim km = snapped / 1000.0
+            scaleTxt = If(km = Math.Floor(km), $"{CInt(km)} km", $"{km:F1} km")
         Else
-            Dim rawKm = rawMeters / 1000.0
-            If rawKm >= 10.0 Then
-                Dim steps = If(rawKm < 20, 5.0, If(rawKm < 100, 10.0, If(rawKm < 500, 25.0, 100.0)))
-                Dim rounded = CLng(Math.Round(rawKm / steps) * steps)
-                scaleTxt = $"{rounded} km"
-            ElseIf rawKm >= 1.0 Then
-                Dim roundedKm = Math.Round(rawKm * 2.0) / 2.0
-                roundedKm = Math.Max(0.5, roundedKm)
-                scaleTxt = If(roundedKm = Math.Floor(roundedKm),
-                      $"{CLng(roundedKm)} km",
-                      $"{roundedKm:F1} km")
-            ElseIf rawMeters >= 100 Then
-                scaleTxt = $"{CInt(Math.Round(rawMeters / 10.0) * 10)} m"
-            Else
-                scaleTxt = $"{CInt(Math.Round(rawMeters))} m"
-            End If
+            scaleTxt = $"{CInt(snapped)} m"
         End If
 
         If ZOOM_SCALE IsNot Nothing AndAlso ZOOM_SCALE.Text <> scaleTxt Then
@@ -606,7 +609,9 @@ Public Class MainPage
         Dim size = CSng(Math.Min(COMPASS_BOX.Width, COMPASS_BOX.Height) / Math.Sqrt(2)) * 0.85F
 
         g.TranslateTransform(cx, cy)
-        g.RotateTransform(-_displayHeading)
+
+        Dim compassRotation = If(_fixedMap, 0.0F, -_displayHeading)
+        g.RotateTransform(compassRotation)
         g.DrawImage(_compassImage, -size / 2.0F, -size / 2.0F, size, size)
     End Sub
 
@@ -723,8 +728,17 @@ Public Class MainPage
             Return
         End If
 
+        Const refBarPx As Double = 80.0
+        Dim scaleStepsM As Double() = {250, 500, 750, 1000, 2500, 5000, 10000, 15000, 30000, 60000}
+
+        Dim stops As New List(Of Single)()
+        For Each m In scaleStepsM.Reverse()
+            Dim r = CSng(refBarPx * ETS2_SCALE / m)
+            stops.Add(r)
+        Next
+
         Dim savedIdx = _offlineZoomIdx
-        _offlineRenderZoomStops = _offlineCompositor.BuildOfflineRenderZoomStops()
+        _offlineRenderZoomStops = stops.ToArray()
 
         If _offlineRenderZoomStops.Length > 0 Then
             _offlineZoomIdx = Math.Max(0, Math.Min(_offlineRenderZoomStops.Length - 1, savedIdx))
@@ -789,7 +803,15 @@ Public Class MainPage
 #Region "Declarations"
 
     Private Sub HOME_BTN_Click(sender As Object, e As EventArgs) Handles HOME_BTN.Click
-        Me.Close()
+        StatusScreen.Close()
+    End Sub
+
+    Private Sub SysTimer_Tick(sender As Object, e As EventArgs) Handles SysTimer.Tick
+        If _data IsNot Nothing AndAlso _data.GameTime IsNot Nothing Then
+            LblTime.Text = _data.GameTime
+        Else
+            LblTime.Text = "--:--"
+        End If
     End Sub
 
 #End Region
