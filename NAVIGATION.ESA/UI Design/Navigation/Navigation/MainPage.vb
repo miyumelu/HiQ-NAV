@@ -610,7 +610,7 @@ Public Class MainPage
 
         g.TranslateTransform(cx, cy)
 
-        Dim compassRotation = If(_fixedMap, 0.0F, -_displayHeading)
+        Dim compassRotation = If(Not _fixedMap, 0.0F, -_displayHeading)
         g.RotateTransform(compassRotation)
         g.DrawImage(_compassImage, -size / 2.0F, -size / 2.0F, size, size)
     End Sub
