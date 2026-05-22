@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Menu"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bad10fcd0967983c15b79f77ddfbb6d1d72dd19b"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f948df412aeaaffc0a707fcd1c9c4a391688deb"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Menu"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Menu"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
