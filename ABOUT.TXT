@@ -3,7 +3,7 @@ All design elements created by Miyu Melu are owned by K. D. Commercial use is st
 The map data is provided by https://github.com/dariowouters/ts-map
 The libraries used here are a part of the MaidNVI library created by Miyu Melu.
 Audio system created using NAudio.
-The Haiku voice, voice synthesizer and design are made by and owned by K. D. under the name Miyu Melu.
+The H...u voice, voice synthesizer and design are made by and owned by K. D. under the name Miyu Melu.
 The Sender application has made using the SCS SDK.
 All systems has been made in VB.NET or .NET compatible elements.
 The ts-map used here is slightly modified and can differ from the standard version.
