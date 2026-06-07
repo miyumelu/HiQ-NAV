@@ -27,8 +27,8 @@
 
     Private Shared Function FindCmdPath(isDay As Boolean) As String
         Dim mapFolder = If(isDay, "DAY.MAP", "NIGHT.MAP")
-        Dim rel = IO.Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "EUROPE.CMD")
-
+        ' Dim rel = IO.Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "EUROPE.CMD")
+        Dim rel = IO.Path.Combine(mapFolder, "EUROPE.CMD")
         For Each d In IO.DriveInfo.GetDrives()
             Try
                 If Not d.IsReady Then Continue For

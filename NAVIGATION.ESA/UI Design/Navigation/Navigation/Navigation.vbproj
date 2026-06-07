@@ -16,9 +16,13 @@
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="System.Speech" Version="10.0.8" />
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="ATLAS">
+      <HintPath>..\..\..\..\..\..\..\Desktop\ATLAS\ATLAS\bin\Debug\net6.0\ATLAS.dll</HintPath>
+    </Reference>
     <Reference Include="Compressed-Map-Data">
       <HintPath>..\..\..\..\..\Compressed-Map-Data\Compressed-Map-Data\Compressed-Map-Data\bin\Debug\net6.0\Compressed-Map-Data.dll</HintPath>
     </Reference>

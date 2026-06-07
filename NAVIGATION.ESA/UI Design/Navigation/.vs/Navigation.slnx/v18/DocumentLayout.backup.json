@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\offlinemapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\offlinemapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\navigation.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -41,6 +25,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\applicationevents.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\my project\\application.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation.esa\\ui design\\navigation\\navigation\\mainpage.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
@@ -53,11 +53,11 @@
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedHeight": 308,
           "SelectedChildIndex": 1,
           "Children": [
             {
@@ -72,26 +72,27 @@
               "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.vb*",
               "RelativeToolTip": "Navigation\\MainPage.vb*",
-              "ViewState": "AgIAAFECAAAAAAAAAAAwwF8CAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAI4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-09T21:03:58.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OfflineMapCompositor.vb",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\OfflineMapCompositor.vb",
-              "RelativeDocumentMoniker": "Navigation\\OfflineMapCompositor.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\OfflineMapCompositor.vb",
-              "RelativeToolTip": "Navigation\\OfflineMapCompositor.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEBAAAxAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StatusScreen.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\StatusScreen.vb",
+              "RelativeDocumentMoniker": "Navigation\\StatusScreen.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\StatusScreen.vb*",
+              "RelativeToolTip": "Navigation\\StatusScreen.vb*",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2026-05-13T17:33:41.777Z"
+              "WhenOpened": "2026-06-07T19:36:55.629Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "TelemetryPacket.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\TelemetryPacket.vb",
               "RelativeDocumentMoniker": "Navigation\\TelemetryPacket.vb",
@@ -103,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Navigation.vbproj",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\Navigation.vbproj",
               "RelativeDocumentMoniker": "Navigation\\Navigation.vbproj",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Application.Designer.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\My Project\\Application.Designer.vb",
               "RelativeDocumentMoniker": "Navigation\\My Project\\Application.Designer.vb",
@@ -127,30 +128,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "IMapCompositor.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\IMapCompositor.vb",
               "RelativeDocumentMoniker": "Navigation\\IMapCompositor.vb",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\IMapCompositor.vb",
               "RelativeToolTip": "Navigation\\IMapCompositor.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-13T21:30:23.675Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Navigation",
-              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\Navigation.vbproj",
-              "RelativeDocumentMoniker": "Navigation\\Navigation.vbproj",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\Navigation.vbproj",
-              "RelativeToolTip": "Navigation\\Navigation.vbproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
-              "WhenOpened": "2026-05-22T12:44:08.137Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "ApplicationEvents.vb",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\ApplicationEvents.vb",
               "RelativeDocumentMoniker": "Navigation\\ApplicationEvents.vb",
@@ -159,6 +149,17 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-17T12:56:20.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Navigation",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeDocumentMoniker": "Navigation\\Navigation.vbproj",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeToolTip": "Navigation\\Navigation.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-05-22T12:44:08.137Z"
             },
             {
               "$type": "Document",
@@ -172,6 +173,26 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-19T19:43:55.139Z",
               "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 92,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 73,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
@@ -202,13 +223,13 @@
               "RelativeDocumentMoniker": "Navigation\\BufferedPanel.vb",
               "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\BufferedPanel.vb",
               "RelativeToolTip": "Navigation\\BufferedPanel.vb",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAA6wAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-19T19:43:45.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainPage.vb [Entwurf]",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\MainPage.vb",
               "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
@@ -220,12 +241,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "StatusScreen.vb [Entwurf]",
               "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\StatusScreen.vb",
               "RelativeDocumentMoniker": "Navigation\\StatusScreen.vb",
-              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\StatusScreen.vb [Entwurf]",
-              "RelativeToolTip": "Navigation\\StatusScreen.vb [Entwurf]",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\NAVIGATION.ESA\\UI Design\\Navigation\\Navigation\\StatusScreen.vb [Entwurf]*",
+              "RelativeToolTip": "Navigation\\StatusScreen.vb [Entwurf]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2026-05-22T12:35:56.573Z",
               "EditorCaption": " [Entwurf]"

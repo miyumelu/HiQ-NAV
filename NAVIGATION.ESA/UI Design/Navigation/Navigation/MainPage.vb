@@ -5,8 +5,9 @@ Imports System.Net
 Imports System.Net.Sockets
 Imports System.Text
 Imports System.Threading
-Imports Newtonsoft.Json
+Imports ATLAS.Atlas
 Imports Compressed_Map_Data
+Imports Newtonsoft.Json
 
 Public Class MainPage
 
@@ -74,6 +75,8 @@ Public Class MainPage
     Private _compassImage As Image
     Private _vehicleImage As Image
 
+    Private _routeSteps As List(Of RouteStep) = Nothing
+
     Private _tcpBuffer() As Byte = New Byte(65535) {}
 
     Private WithEvents renderTimer As System.Windows.Forms.Timer
@@ -114,6 +117,7 @@ Public Class MainPage
         LoadMap()
         _offlineMap = True
         RebuildOfflineZoomStops()
+
         _offlineZoomIdx = 3
         _forceRedraw = True
         _mapDirty = True
@@ -126,8 +130,8 @@ Public Class MainPage
 
     Private Shared Function FindCmdPath(isDay As Boolean) As String
         Dim mapFolder = If(isDay, "DAY.MAP", "NIGHT.MAP")
-        Dim rel = IO.Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "EUROPE.CMD")
-
+        ' Dim rel = IO.Path.Combine("NAVIGATION_MAP.DATA", mapFolder, "EUROPE.CMD")
+        Dim rel = IO.Path.Combine(mapFolder, "EUROPE.CMD")
         For Each d In IO.DriveInfo.GetDrives()
             If Not d.IsReady Then Continue For
             If d.DriveType <> IO.DriveType.Fixed AndAlso
@@ -590,6 +594,61 @@ Public Class MainPage
         Dim frac = raw / basePow
         Dim nf As Double = If(frac < 1.5, 1, If(frac < 3.5, 2, If(frac < 7.5, 5, 10)))
         Return nf * basePow
+    End Function
+
+#End Region
+
+#Region "Coordinates"
+
+    Private Function WorldToScreen(wx As Single, wz As Single, w As Integer, h As Integer) As PointF
+        Dim zoom = GetEffectiveRenderZoom()
+        Dim tile As Bitmap = Nothing
+        SyncLock _tileLock
+            tile = If(_activeTile = 0, _tileA, _tileB)
+        End SyncLock
+        If tile IsNot Nothing AndAlso tile.Width > 0 Then
+            Dim tileScale = CSng(Math.Max(w, h)) / tile.Width
+            zoom *= If(_fixedMap, tileScale * 1.25F, tileScale)
+        End If
+
+        Dim dx = (wx - CSng(_data.TruckX)) * zoom
+        Dim dz = (wz - CSng(_data.TruckZ)) * zoom
+
+        If _fixedMap Then
+            Dim rad = -_displayHeading * CSng(Math.PI) / 180.0F
+            Dim cosR = CSng(Math.Cos(rad))
+            Dim sinR = CSng(Math.Sin(rad))
+            Return New PointF(w / 2.0F + dx * cosR - dz * sinR,
+                          h / 2.0F + dx * sinR + dz * cosR)
+        End If
+        Return New PointF(w / 2.0F + dx, h / 2.0F + dz)
+    End Function
+
+    Private Function ScreenToWorld(sx As Integer, sy As Integer, w As Integer, h As Integer) As (X As Single, Z As Single)
+        Dim zoom = GetEffectiveRenderZoom()
+
+        Dim tile As Bitmap = Nothing
+        SyncLock _tileLock
+            tile = If(_activeTile = 0, _tileA, _tileB)
+        End SyncLock
+        If tile IsNot Nothing AndAlso tile.Width > 0 Then
+            Dim tileScale = CSng(Math.Max(w, h)) / tile.Width
+            zoom *= If(_fixedMap, tileScale * 1.25F, tileScale)
+        End If
+
+        If zoom <= 0.00001F Then Return (CSng(_data.TruckX), CSng(_data.TruckZ))
+
+        Dim dx = (sx - w / 2.0F) / zoom
+        Dim dz = (sy - h / 2.0F) / zoom
+
+        If _fixedMap Then
+            Dim rad = _displayHeading * CSng(Math.PI) / 180.0F
+            Dim cosR = CSng(Math.Cos(rad))
+            Dim sinR = CSng(Math.Sin(rad))
+            Return (CSng(_data.TruckX) + dx * cosR - dz * sinR,
+                CSng(_data.TruckZ) + dx * sinR + dz * cosR)
+        End If
+        Return (CSng(_data.TruckX) + dx, CSng(_data.TruckZ) + dz)
     End Function
 
 #End Region
