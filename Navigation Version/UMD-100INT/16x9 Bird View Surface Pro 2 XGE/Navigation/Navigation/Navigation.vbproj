@@ -1,0 +1,70 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
+    <StartupObject>Navigation.My.MyApplication</StartupObject>
+    <UseWindowsForms>true</UseWindowsForms>
+    <MyType>WindowsForms</MyType>
+	<EnableWindowsTargeting>true</EnableWindowsTargeting>
+	<Title>HiQ-NAV XGE</Title>
+	<Authors>Miyu Melu</Authors>
+	<Company>Miyu Melu</Company>
+	<Product>HiQ-NAV</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="MainPage.vb~RF1f482fb.TMP" />
+    <None Remove="Perspective3DRenderer.vb~RF30b644a.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" Version="6.0.0" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
+    <PackageReference Include="SharpDX.XInput" Version="4.2.0" />
+    <PackageReference Include="System.Speech" Version="10.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ATLAS">
+      <HintPath>C:\Users\deniz\Desktop\ATLAS\ATLAS\bin\Debug\net6.0\ATLAS.dll</HintPath>
+    </Reference>
+    <Reference Include="Compressed-Map-Data">
+      <HintPath>C:\Users\deniz\Documents\GitHub\Compressed-Map-Data\Compressed-Map-Data - Copy\Compressed-Map-Data\bin\Debug\net6.0-windows\Compressed-Map-Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="My Project\Application.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

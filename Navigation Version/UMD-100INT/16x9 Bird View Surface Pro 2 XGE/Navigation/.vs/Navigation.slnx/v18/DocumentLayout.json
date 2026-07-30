@@ -1,0 +1,248 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\statusscreen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\imapcompositor.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\navigation.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\telemetrypacket.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\perspective3drenderer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\perspective3drenderer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\mainpage.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\bufferedpicturebox.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\bufferedpicturebox.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\bufferedpanel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\bufferedpanel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|c:\\users\\deniz\\documents\\github\\hiq-nav\\navigation version\\umd-100int\\ui design 16x9 sp2 xge\\navigation\\navigation\\navigation.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D7379127-64BA-AB05-8F35-E39C9797F000}|Navigation\\Navigation.vbproj|solutionrelative:navigation\\navigation.vbproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 507,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TelemetryPacket.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\TelemetryPacket.vb",
+              "RelativeDocumentMoniker": "Navigation\\TelemetryPacket.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\TelemetryPacket.vb",
+              "RelativeToolTip": "Navigation\\TelemetryPacket.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-30T13:26:39.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatusScreen.vb [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\StatusScreen.vb",
+              "RelativeDocumentMoniker": "Navigation\\StatusScreen.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\StatusScreen.vb [Entwurf]",
+              "RelativeToolTip": "Navigation\\StatusScreen.vb [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-30T13:23:55.803Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMapCompositor.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\IMapCompositor.vb",
+              "RelativeDocumentMoniker": "Navigation\\IMapCompositor.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\IMapCompositor.vb",
+              "RelativeToolTip": "Navigation\\IMapCompositor.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-30T13:22:36.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\MainPage.vb",
+              "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\MainPage.vb",
+              "RelativeToolTip": "Navigation\\MainPage.vb",
+              "ViewState": "AgIAAKwEAAAAAAAAAADwv9AEAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-05-09T21:03:58.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StatusScreen.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\StatusScreen.vb",
+              "RelativeDocumentMoniker": "Navigation\\StatusScreen.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\StatusScreen.vb",
+              "RelativeToolTip": "Navigation\\StatusScreen.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-20T23:07:14.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Navigation",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeDocumentMoniker": "Navigation\\Navigation.vbproj",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeToolTip": "Navigation\\Navigation.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-07-30T13:54:40.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Perspective3DRenderer.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Perspective3DRenderer.vb",
+              "RelativeDocumentMoniker": "Navigation\\Perspective3DRenderer.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Perspective3DRenderer.vb",
+              "RelativeToolTip": "Navigation\\Perspective3DRenderer.vb",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwCsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-19T19:12:08.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BufferedPanel.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\BufferedPanel.vb",
+              "RelativeDocumentMoniker": "Navigation\\BufferedPanel.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\BufferedPanel.vb",
+              "RelativeToolTip": "Navigation\\BufferedPanel.vb",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-20T21:47:36.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BufferedPictureBox.vb",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\BufferedPictureBox.vb",
+              "RelativeDocumentMoniker": "Navigation\\BufferedPictureBox.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\BufferedPictureBox.vb",
+              "RelativeToolTip": "Navigation\\BufferedPictureBox.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-06-20T21:48:05.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Navigation.vbproj",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeDocumentMoniker": "Navigation\\Navigation.vbproj",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+              "RelativeToolTip": "Navigation\\Navigation.vbproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2026-06-20T21:40:22.03Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 175,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 93,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "17f4710e-30bb-4db3-8d4b-a55dad555177",
+        "Display": 1,
+        "X": 536,
+        "Y": 155,
+        "Width": 1213,
+        "Height": 731,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainPage.vb [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\MainPage.vb",
+              "RelativeDocumentMoniker": "Navigation\\MainPage.vb",
+              "ToolTip": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\MainPage.vb [Entwurf]",
+              "RelativeToolTip": "Navigation\\MainPage.vb [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-11T23:57:05.11Z",
+              "EditorCaption": " [Entwurf]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
