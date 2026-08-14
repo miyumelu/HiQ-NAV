@@ -1,4 +1,4 @@
-# HiQ-NAV
+# Navigation System Software (or HiQ-NAV)
 
 HiQ-NAV is a navigation system for Euro Truck Simulator 2.
 
