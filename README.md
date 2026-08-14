@@ -64,7 +64,7 @@ It is being moved under the SAT-TEQ (short for Satellite Technologies Germany) b
 
 This repository will now contain only the data for the navigation system and NetService (provided the latter's functionality is in use).
 
-The multimedia interface is being introduced in a new repository as "MEXIA" or H...k/Melu Multimedia Architecture (MMA) (the architecture for the entire system is currently under development).
+The multimedia interface is being introduced in a new repository as H...k/Melu Multimedia Architecture (MMA) (the architecture for the entire system is currently under development).
 
 ## Used Project(s)
 
@@ -76,8 +76,6 @@ The multimedia interface is being introduced in a new repository as "MEXIA" or H
 [Core Dictionary Module](https://github.com/miyumelu/core-dictionary-module)
 
 [Power-Distribution-Management-System](https://github.com/miyumelu/Power-Distribution-Management-System)
-
-[Touch Gesture Recognition System](https://github.com/miyumelu/Touch-Gesture-Recognition-System)
 
 [neXt Motion Engine](https://github.com/miyumelu/next-motion-engine)
 
