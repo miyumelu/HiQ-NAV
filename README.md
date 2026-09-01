@@ -52,7 +52,7 @@ With UMD Version 2, the Blu-ray system will be overhauled. Details on exactly ho
 
 At the same time, I am testing the map installation and navigation system software update via external media, since the unit is not yet installed or the process is only possible using external coding software.
 
-I am currently testing a "Map Onboard" variant, also known as Interis (Internal Drive System). This is designed to allow maps to be loaded onto the navigation system via DVD/Blu-ray, USB, or SD card (each system has its own unique copy-protection code). The new UND-100 variant now supports Interive. It includes new event handlers to activate this feature.
+I am currently testing a "Map Onboard" variant, also known as Interis (Internal Drive System). This is designed to allow maps to be loaded onto the navigation system via DVD/Blu-ray, USB, or SD card (each system has its own unique copy-protection code). The new UMD-100 variant now supports Interive. It includes new event handlers to activate this feature.
 
 For the time being, this is only available via ESCE (External Software Coding Environment), as it is the first app capable of generating a "material security key." I should note that a DCC cable (Data Communication Cable) is required for this: essentially, it consists of two USB-to-RJ45 adapters connecting the two devices.
 
