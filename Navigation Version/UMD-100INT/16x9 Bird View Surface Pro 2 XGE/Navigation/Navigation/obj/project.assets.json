@@ -4742,11 +4742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+      "projectUniqueName": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\16x9 Bird View Surface Pro 2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
       "projectName": "Navigation",
-      "projectPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+      "projectPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\16x9 Bird View Surface Pro 2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
       "packagesPath": "C:\\Users\\deniz\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\obj\\",
+      "outputPath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\16x9 Bird View Surface Pro 2 XGE\\Navigation\\Navigation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\deniz\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "asB9p4CTVuY=",
+  "dgSpecHash": "964a/mjUXR0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\UI Design 16x9 SP2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
+  "projectFilePath": "C:\\Users\\deniz\\Documents\\GitHub\\HiQ-NAV\\Navigation Version\\UMD-100INT\\16x9 Bird View Surface Pro 2 XGE\\Navigation\\Navigation\\Navigation.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\deniz\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",

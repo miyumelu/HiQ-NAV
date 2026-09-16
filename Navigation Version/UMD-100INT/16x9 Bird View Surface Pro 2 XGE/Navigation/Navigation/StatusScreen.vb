@@ -7,7 +7,7 @@ Public Class StatusScreen
 
     Private _data As TelemetryPacket = New TelemetryPacket()
     Private _spacer As String = "    "
-    Private ReadOnly _supportsDVD As Boolean = False
+    Private ReadOnly _supportsDVD As Boolean = True
     Private ReadOnly _supportsMedium As Boolean = True
     Private ReadOnly _supportsInternal As Boolean = True
     Private _isCheckingDVD As Boolean = False
