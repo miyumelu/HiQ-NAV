@@ -85,8 +85,6 @@ The multimedia interface is being introduced in a new repository as H...k/Melu M
 
 [Universal Map Data](https://github.com/miyumelu/universal-map-data)
 
-Universal Map Data (WIP)
-
 [Core Dictionary Module](https://github.com/miyumelu/core-dictionary-module)
 
 [Power-Distribution-Management-System](https://github.com/miyumelu/Power-Distribution-Management-System)
