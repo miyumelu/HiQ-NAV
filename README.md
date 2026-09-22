@@ -1,6 +1,6 @@
 # Navigation System Software (HiQ-NAV)
 
-HiQ-NAV is a navigation system for Euro Truck Simulator 2.
+NSS/HiQ-NAV is a navigation system for Euro Truck Simulator 2, and a part of the MMA system.
 
 ## Functions
 
@@ -8,7 +8,7 @@ The map allows you to see your current location. Thanks to zoom options, you can
 
 Credit here goes to [ts-map](https://github.com/dariowouters/ts-map), who developed the map parser. It is possible to transmit live map data to the navigation system via TCP—though this comes at the cost of bandwidth usage.
 
-Thanks to my "Compressed Map Data" and "Universal Map Data" (in development) file format, it is possible to compress the ts-map tiles into a single file and access them within HiQ-Nav. This not only saves storage space but also improves performance.
+Thanks to my "Compressed Map Data" (Out of support) and "Universal Map Data" (in development) file format, it is possible to compress the ts-map tiles into a single file and access them within HiQ-Nav. This not only saves storage space but also improves performance.
 
 ## Using the System
 
@@ -20,9 +20,9 @@ Business – approx. 300MB/700 MB (Recommended for low end tablets etc./CDs)
 
 Professional – approx. 3 GB (Recommended for DVDs)
 
-Ultimate – approx. 8 GB (Recommended for SD-Cards/USBs/Integrated drives)
+Ultimate – approx. 8-9 GB (Recommended for SD-Cards/USBs/Integrated drives - working on compatibility with DVD DL)
 
-Blu-ray – approx. 10GB/37GB (Single Layer/Dual Layer, Work in progress)
+Blu-ray – approx. 10GB/37GB (Recommended for Blu-ray disc Single Layer/Dual Layer)
 
 The TruckersMP versions of the maps have been dropped because the process is currently too inconsistent regarding updates, and it isn't worth potentially creating a new map for every update. I might consider it as an option again in the future, but until then, things will remain as they are.
 
@@ -68,7 +68,7 @@ With the transition from CMD to UMD, I am also changing the navigation system ar
 
 ## Divisioning
 
-HiQ-NAV is now being continued as a standalone component.
+HiQ-NAV/Navigation System Software is now being continued as a standalone component.
 
 It is being moved under the SAT-TEQ (short for Satellite Technologies Germania) branch to separate it from my desktop apps and user interfaces.
 
@@ -76,12 +76,16 @@ This repository will now contain only the data for the navigation system and Net
 
 The multimedia interface is being introduced in a new repository as H...k/Melu Multimedia Architecture (MMA) (the architecture for the entire system is currently under development).
 
+## Website for SAT-TEQ
+
+[sat-teq.de](http://sat-teq.de)
+
 ## Used Project(s)
 
 [ts-map](https://github.com/dariowouters/ts-map)
 
 ## Own APIs
-[Compressed Map Data](https://github.com/miyumelu/compressed-map-data)
+[Compressed Map Data (Out of support)](https://github.com/miyumelu/compressed-map-data)
 
 [Universal Map Data](https://github.com/miyumelu/universal-map-data)
 
