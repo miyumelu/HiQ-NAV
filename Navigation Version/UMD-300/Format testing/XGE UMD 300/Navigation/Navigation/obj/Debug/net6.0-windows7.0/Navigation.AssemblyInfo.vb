@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Miyu Melu"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a4f66695fcca4025937724d825a59e0ae389b5a9"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a726d78f35c9a37e62ad3d3b2e3e32d2e922bdf7"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("HiQ-NAV"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Navigation"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
